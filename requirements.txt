@@ -1,0 +1,4 @@
+pyvisa>=1.14
+pyvisa-py>=0.7
+psutil>=5.9
+zeroconf>=0.131

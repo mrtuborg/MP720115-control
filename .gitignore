@@ -1,0 +1,55 @@
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Python environments and local configuration
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+.python-version
+
+# Packaging and build products
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+*.pdf
+
+# Test and coverage products
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Logs
+*.log
+
+# Oscilloscope runs, recovery evidence, and generated guides
+/output/
+
+# Intermediate PDF renders and other scratch work
+/tmp/
+
+# Ad-hoc captures written at the repository root
+/out*.bmp
+/out*.csv
+/out*.npz
+/out*.png
